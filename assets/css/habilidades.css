@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Quando&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quando', serif;
+    scroll-behavior: smooth;
+}
+#habilidades{
+    background-color: #493737;
+}
+.habilidades-pd{
+    padding-top: 93px;
+}
+.habilidades-pd h2{ 
+    text-align: center;
+    padding-bottom: 70px;
+}
+.skills-descricao{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap:50px;
+    padding-bottom: 70px;
+}
+.conteiner-skills{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 37px;
+    max-width: 535px;
+}
+.skill-box{
+    height: 106px;
+    width: 106px;
+    background-color: #C4C4C4;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner-descricao{
+    color: white;
+    font-family: 'Quando', serif;
+    font-size: 20px;
+    max-width: 464px;
+}

@@ -4,6 +4,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Quando', serif;
+    scroll-behavior: smooth;
 }
 
 /* criando barra de navegação */
@@ -21,7 +22,6 @@ a{
     text-decoration: none;
     display: block;
     color: rgb(255, 255, 255);
-    
     font-size: 22.2061px;
 }
 img{

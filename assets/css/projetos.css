@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Quando&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quando', serif;
+    scroll-behavior: smooth;
+}
+
+#projetos{
+    background-color: #352728;
+}
+.projetos{
+    padding-top: 93px;
+}
+.projetos h2, .projetos a{
+    text-align: center;
+}
+.projetos h2{
+    padding-bottom: 70px;
+}
+.projetos a{
+    padding-top: 70px;
+    padding-bottom: 93px;
+}
+.pro{
+    background-color: #C4C4C4;
+    height: 195px;
+    width: 370.96px;
+    border-radius: 20px;
+}
+.projetos-itens{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 29.5px;
+    width: 100%;
+}
