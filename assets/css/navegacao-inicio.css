@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Quando&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quando', serif;
+}
+
+/* criando barra de navegação */
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+}
+nav{
+    width: 50%;
+}
+a{
+    text-decoration: none;
+    display: block;
+    color: rgb(255, 255, 255);
+    
+    font-size: 22.2061px;
+}
+img{
+    max-width: 100%;
+    display: block;
+}
+.logo{
+    padding: 15px 0;
+}
+.barra{
+    width: 100%;
+    background: rgba(196, 196, 196, 0.11);
+    backdrop-filter: blur(10px);
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.452);
+}
+.barra-conteiner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.centralizador{
+    max-width: 1173px;
+    margin: 0 auto;
+}
+/* barra de navegação terminada */
+
+/* criando início */
+#inicio{
+    background: linear-gradient(63.13deg, #352728 51.04%, #8E5D52 51.05%);
+}
+.ajustador{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.apresentacao{
+    max-width: 741px;
+    color:white;
+}
+.descricao{
+    font-size: 34.4921px;
+}
+.meu-nome{
+    font-size: 69.49px;;
+}
+.linkedin{
+    max-width: 479px;
+    height: 85px;
+    background-color:#8E5D52;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 62px;
+}
+.link{
+    font-size:34.4921px;
+    width:50%;
+    text-align: center;
+    padding: 12px 0 ;
+}
+.desenho{
+    padding: 235px 0;
+}
+

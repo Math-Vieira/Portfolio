@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Quando&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Quando&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Quando', serif;
+}
+#sobre-mim{
+    width: 100%;
+    background-color: #493737;
+}
+.ajustador-2{
+    padding: 144px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 110px;
+    max-width: 1064px;
+    margin: 0 auto;
+}
+h2{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 45px;
+}
+.sobre-mim p{
+    text-indent: 30px;
+    font-size: 20px;
+    max-width: 609.25px;
+}
+    
