@@ -35,3 +35,13 @@
     gap: 29.5px;
     width: 100%;
 }
+@media (max-width:1200px){
+    .projetos-itens{
+        display: flex;
+        flex-direction: column;
+        gap: 29.5px;
+        width: 370.95px;
+        margin: 0 auto;
+
+    }
+}

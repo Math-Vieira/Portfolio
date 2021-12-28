@@ -90,4 +90,10 @@ img{
 .desenho{
     padding: 235px 0;
 }
+@media (max-width:1200px){
+    .centralizador{
+        max-width: 1173px;
+        margin: 0 50px;
+    }
+}
 

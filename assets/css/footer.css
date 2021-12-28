@@ -14,7 +14,6 @@
     max-width: 1173px;
     margin: 0 auto;
     display: flex;
-    height: 80px;
     justify-content: space-between;
     align-items: center;
 }
@@ -22,8 +21,20 @@
     color: white;
     font-family: 'Quando', serif;
     font-size: 15px;
+    padding: 10px 0;
 }
 .icons{
     display: flex;
     gap: 25px;
+}
+@media (max-width:1200px){
+    .contato-creditos{
+        text-align: center;
+    }
+    .footer-conteiner{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 10px;
+    }
+   
 }

@@ -29,4 +29,24 @@ h2{
     max-width: 609.25px;
     color: white;
 }
+@media (max-width:1200px){
+    .ajustador-2{
+        padding: 144px 0;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 55px;
+        max-width: 1064px;
+        margin: 0 auto;
+    }
+    .sobre-mim h2, .sobre-mim p{
+        text-align: center;
+    }
+    .sobre-mim p{
+        text-indent: 0;
+    }
+    .avatar{
+        padding-right:55px;
+    }
+}
     

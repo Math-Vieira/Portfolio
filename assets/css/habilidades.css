@@ -45,3 +45,25 @@
     font-size: 20px;
     max-width: 464px;
 }
+@media (max-width:1200px) {
+    .skills-descricao{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 535px;
+        margin: 0 auto;
+        gap:50px;
+        padding-bottom: 70px;
+        align-items: center;
+    }
+    .skills-descricao p{
+        text-align: center;
+    }
+}
+@media (max-width:500px) {
+    .conteiner-skills{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 37px;
+        max-width: 300px;
+    }
+}
