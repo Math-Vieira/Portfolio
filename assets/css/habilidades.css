@@ -46,6 +46,13 @@
     max-width: 464px;
 }
 @media (max-width:1200px) {
+    #habilidades{
+        display: flex;
+        justify-content: center;
+    }
+    .centralizador{
+        margin:0;
+    }
     .skills-descricao{
         display: flex;
         flex-direction: column-reverse;
@@ -59,11 +66,15 @@
         text-align: center;
     }
 }
-@media (max-width:500px) {
+@media (max-width:900px) {
     .conteiner-skills{
         display: flex;
+        justify-content: center;
         flex-wrap: wrap;
         gap: 37px;
+        max-width: 300px;
+    }
+    .conteiner-descricao{
         max-width: 300px;
     }
 }

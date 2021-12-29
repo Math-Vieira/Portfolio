@@ -21,13 +21,15 @@
 <body>
     <div>
         <!-- menu -->
+        <input id="close-menu" class="close-menu" type="checkbox" aria-label="close-menu" role="button">
+        <label class="close-menu-label" for="close-menu" title="close menu"></label>
         <div class="barra">
             <div class="barra-conteiner centralizador">
-                <div class="logo">
+                <div class="logo esquerda">
                     <img src="/assets/img/logo.png" alt="logo">
                 </div>
-                <nav>
-                    <ul>
+                <nav class="direita">
+                    <ul onclick="getElementById('close-menu').checked=false;">
                         <li><a href="#inicio">Início</a></li>
                         <li><a href="#sobre-mim">Sobre mim</a></li>
                         <li><a href="#projetos">Projetos</a></li>
@@ -41,7 +43,7 @@
         <!-- primeira tela -->
         <section id="inicio">
             <div class="inicio centralizador">
-                <div class="ajustador">
+                <div class="ajustador organizador">
                     <div class="apresentacao">
                         <p class="descricao"> 
                             Oi, eu sou <br> <span class="meu-nome">Matheus Vieira.</span> <br>

@@ -36,12 +36,21 @@
     width: 100%;
 }
 @media (max-width:1200px){
-    .projetos-itens{
-        display: flex;
-        flex-direction: column;
-        gap: 29.5px;
-        width: 370.95px;
-        margin: 0 auto;
-
+  .projetos{
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+  }
+  #projetos{
+      display: flex;
+      justify-content: center;
+  }
+  .projetos-itens{
+      flex-direction: column;
+  }
+}
+@media (max-width:900px){
+    .pro{
+        max-width: 300px;
     }
 }
