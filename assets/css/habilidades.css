@@ -56,7 +56,7 @@
     .skills-descricao{
         display: flex;
         flex-direction: column-reverse;
-        width: 535px;
+        /* width: 535px; */
         margin: 0 auto;
         gap:50px;
         padding-bottom: 70px;
