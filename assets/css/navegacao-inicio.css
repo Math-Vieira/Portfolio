@@ -153,9 +153,6 @@ img {
 }
 
 @media (max-width:900px) {
-    .esquerda img{
-        display: none;
-    }
     .organizador {
         max-width: 300px;
         display: grid;
@@ -198,9 +195,13 @@ img {
     .barra-conteiner {
         height: 100vh;
         display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
         gap: 50px;
+    }
+    .barra-conteiner .logo{
+        width: 100%;
     }
 
     .direita ul {
