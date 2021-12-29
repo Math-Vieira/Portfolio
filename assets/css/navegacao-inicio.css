@@ -204,6 +204,12 @@ img{
         display: block;
         content: '✕';
     }
+    .barra .barra-conteiner ul li a{
+        font-size: 25px;
+    }
+    .barra{
+        background: rgba(0, 0, 0, 0.527);
+    }
 }
 
 
