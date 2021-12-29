@@ -24,18 +24,20 @@
         <input id="close-menu" class="close-menu" type="checkbox" aria-label="close-menu" role="button">
         <label class="close-menu-label" for="close-menu" title="close menu"></label>
         <div class="barra">
-            <div class="barra-conteiner centralizador">
-                <div class="logo esquerda">
-                    <img src="/assets/img/logo.png" alt="logo">
+            <div class="menu-centro">
+                <div class="barra-conteiner centralizador">
+                    <div class="logo esquerda">
+                        <img src="/assets/img/logo.png" alt="logo">
+                    </div>
+                    <nav class="direita">
+                        <ul onclick="getElementById('close-menu').checked=false;"> 
+                            <li><a href="#inicio">Início</a></li>
+                            <li><a href="#sobre-mim">Sobre mim</a></li>
+                            <li><a href="#projetos">Projetos</a></li>
+                            <li><a href="#habilidades">Habilidades</a></li>
+                        </ul>
+                    </nav>
                 </div>
-                <nav class="direita">
-                    <ul onclick="getElementById('close-menu').checked=false;"> 
-                        <li><a href="#inicio">Início</a></li>
-                        <li><a href="#sobre-mim">Sobre mim</a></li>
-                        <li><a href="#projetos">Projetos</a></li>
-                        <li><a href="#habilidades">Habilidades</a></li>
-                    </ul>
-                </nav>
             </div>
         </div>
         <!-- menu -->
