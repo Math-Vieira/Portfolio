@@ -1,35 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Quando&display=swap');
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Quando', serif;
     scroll-behavior: smooth;
 }
-#habilidades{
+
+#habilidades {
     background-color: #493737;
 }
-.habilidades-pd{
+
+.habilidades-pd {
     padding-top: 93px;
 }
-.habilidades-pd h2{ 
+
+.habilidades-pd h2 { 
     text-align: center;
     padding-bottom: 70px;
 }
-.skills-descricao{
+
+.skills-descricao {
     display: flex;
     flex-wrap: wrap;
     justify-content: start;
     gap:50px;
     padding-bottom: 70px;
 }
-.conteiner-skills{
+
+.conteiner-skills {
     display: flex;
     flex-wrap: wrap;
     gap: 37px;
     max-width: 535px;
 }
-.skill-box{
+
+.skill-box {
     height: 106px;
     width: 106px;
     background-color: #C4C4C4;
@@ -39,21 +45,24 @@
     align-items: center;
 }
 
-.conteiner-descricao{
+.conteiner-descricao {
     color: white;
     font-family: 'Quando', serif;
     font-size: 20px;
     max-width: 464px;
 }
+
 @media (max-width:1200px) {
-    #habilidades{
+    #habilidades {
         display: flex;
         justify-content: center;
     }
-    .centralizador{
+
+    .centralizador {
         margin:0;
     }
-    .skills-descricao{
+
+    .skills-descricao {
         display: flex;
         flex-direction: column-reverse;
         /* width: 535px; */
@@ -62,19 +71,23 @@
         padding-bottom: 70px;
         align-items: center;
     }
-    .skills-descricao p{
+
+    .skills-descricao p {
         text-align: center;
     }
+
 }
 @media (max-width:900px) {
-    .conteiner-skills{
+    .conteiner-skills {
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
         gap: 37px;
         max-width: 300px;
     }
-    .conteiner-descricao{
+
+    .conteiner-descricao {
         max-width: 300px;
     }
+
 }

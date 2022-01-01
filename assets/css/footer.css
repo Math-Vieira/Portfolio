@@ -1,37 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Quando&display=swap');
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Quando', serif;
     scroll-behavior: smooth;
 }
-.footer{
+
+.footer {
     width: 100%;
     background-color: #352728;
 }
-.footer-conteiner{
+
+.footer-conteiner {
     max-width: 1173px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.contato-creditos{
+
+.contato-creditos {
     color: white;
     font-family: 'Quando', serif;
     font-size: 15px;
     padding: 10px 0;
 }
-.icons{
+
+.icons {
     display: flex;
     gap: 25px;
 }
-@media (max-width:1200px){
+
+@media (max-width:1200px) {
     .contato-creditos{
         text-align: center;
     }
-    .footer-conteiner{
+    
+    .footer-conteiner {
         display: flex;
         flex-direction: column;
         padding-bottom: 10px;

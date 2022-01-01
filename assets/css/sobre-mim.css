@@ -1,16 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Quando&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Quando&display=swap');
-*{
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Quando', serif;
 }
-#sobre-mim{
+
+#sobre-mim {
     width: 100%;
     background-color: #493737;
 }
-.ajustador-2{
+
+.ajustador-2 {
     padding: 144px 0;
     display: flex;
     flex-wrap: wrap;
@@ -18,39 +21,51 @@
     max-width: 1064px;
     margin: 0 auto;
 }
-h2{
+
+h2 {
     font-family: 'Press Start 2P', cursive;
     font-size: 45px;
     color: white;
 }
-.sobre-mim p{
+
+.sobre-mim p {
     text-indent: 30px;
     font-size: 20px;
     max-width: 609.25px;
     color: white;
 }
-@media (max-width:1200px){
-    .ajustador-2{
+
+@media (max-width:1200px) {
+    .ajustador-2 {
         justify-content: center;
         text-align: center;
     }
-    .avatar{
+
+    .avatar {
         margin-right: 60px;
     }
-    h2{
+
+    h2 {
         font-size: 30px;
     }
-    .ajustador-2 p{
+
+    .ajustador-2 p {
         font-size: 15px;
     }
+    .sobre-mim p {
+        text-indent: 0;
+    }
 }
+
 @media(max-width:900px){
-    .ajustador-2{
+    .ajustador-2 {
         max-width: 350px;
         padding: 70px 30px;
     }
-    .avatar{
+
+    .avatar {
         margin-right: 0;
     }
+
 }
     
