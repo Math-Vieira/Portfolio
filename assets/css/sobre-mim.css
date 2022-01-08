@@ -28,6 +28,12 @@ h2 {
     color: white;
 }
 
+.sobre-mim{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .sobre-mim p {
     text-indent: 30px;
     font-size: 20px;
