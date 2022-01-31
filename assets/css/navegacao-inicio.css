@@ -94,7 +94,7 @@ img {
 }
 
 .linkedin {
-    max-width: 479px;
+    width: 479px;
     height: 85px;
     background-color:#8E5D52;
     display: flex;
@@ -122,6 +122,22 @@ img {
 
 .close-menu {
     display: none;
+}
+
+.meu-nome::after{
+    content: '|';
+    margin-left: 5px;
+    opacity: 1;
+    animation: pisca .7s infinite;
+}
+
+@keyframes pisca {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
 }
 
 @media (max-width:1200px) {
