@@ -55,7 +55,7 @@ img {
 }
 
 .centralizador {
-    max-width: 1173px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 /* barra de navegação terminada */
@@ -63,6 +63,13 @@ img {
 /* criando início */
 #inicio {
     background: linear-gradient(63.13deg, #352728 51.04%, #8E5D52 51.05%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.altura-ajuste{
+    width: 100%;
 }
 
 .ajustador {
@@ -78,12 +85,12 @@ img {
 }
 
 .descricao {
-    font-size: 34.4921px;
+    font-size: 25px;
     grid-area: descricao;
 }
 
 .meu-nome {
-    font-size: 69.49px;;
+    font-size: 50px;;
 }
 
 .linkedin {
@@ -97,14 +104,19 @@ img {
 }
 
 .link {
-    font-size:34.4921px;
+    font-size:25px;
     width:50%;
     text-align: center;
     padding: 12px 0 ;
+    transition: ease-in-out 0.3s;
+}
+
+.link:hover {
+    letter-spacing: 5px;
 }
 
 .desenho {
-    padding: 235px 0;
+    width: 300px;
     grid-area: desenho;
 }
 
@@ -116,6 +128,7 @@ img {
     
     #inicio{
         background: #352728;
+        height: auto;
     }
 
     .ajustador {
@@ -127,7 +140,7 @@ img {
     }
 
     .desenho {
-        padding: 50px 0;
+        padding: 100px 0;
     }
 
     .apresentacao {
@@ -152,7 +165,11 @@ img {
 
 }
 
-@media (max-width:900px) {
+@media (max-width:950px) {
+    .altura-ajuste{
+        display: flex;
+        justify-content: center;
+    }
     .organizador {
         max-width: 300px;
         display: grid;

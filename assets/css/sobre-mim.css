@@ -17,7 +17,7 @@
     padding: 144px 0;
     display: flex;
     flex-wrap: wrap;
-    gap: 110px;
+    gap: 67px;
     max-width: 1064px;
     margin: 0 auto;
 }
@@ -63,7 +63,7 @@ h2 {
     }
 }
 
-@media(max-width:900px){
+@media(max-width:950px){
     .ajustador-2 {
         max-width: 350px;
         padding: 70px 30px;
