@@ -25,7 +25,15 @@ a {
     text-decoration: none;
     display: block;
     color: rgb(255, 255, 255);
-    font-size: 22.2061px;
+    font-size: 15.2061px;
+}
+
+nav a {
+    transition: ease-in-out 0.3s;
+}
+
+nav a:hover {
+ color: rgb(208, 255, 0);
 }
 
 img {
@@ -182,6 +190,10 @@ img {
 }
 
 @media (max-width:950px) {
+    .desenho {
+        padding: 25px 0;
+    }
+
     .altura-ajuste{
         display: flex;
         justify-content: center;
