@@ -1,6 +1,5 @@
 const meuNome = document.querySelector('.meu-nome');
 
-
 function typeWriter (nome) {
     const meuNome = nome.innerHTML.split('');
     nome.innerHTML='';

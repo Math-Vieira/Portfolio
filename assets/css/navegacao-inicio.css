@@ -26,13 +26,10 @@ a {
     display: block;
     color: rgb(255, 255, 255);
     font-size: 15.2061px;
-}
-
-nav a {
     transition: ease-in-out 0.3s;
 }
 
-nav a:hover {
+a:hover {
  color: rgb(208, 255, 0);
 }
 
@@ -121,6 +118,7 @@ img {
 
 .link:hover {
     letter-spacing: 5px;
+    color: white;
 }
 
 .desenho {

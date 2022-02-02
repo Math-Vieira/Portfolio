@@ -44,3 +44,32 @@
     }
    
 }
+
+.links {
+    height: 32px;
+    width: 32px;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
+}
+
+.links1 {
+    background-image: url(../img/githubF.svg);
+}
+
+.links1:hover {
+    background-image: url(../img/githubF2.svg);
+}
+
+.links2 {
+    background-image: url(../img/linkedinF.svg);
+}
+
+.links2:hover {
+    background-image: url(../img/linkedinF2.svg);
+}
+
+.transparente {
+    opacity: 0;
+}
