@@ -46,7 +46,7 @@
     cursor: pointer;
     background-repeat: no-repeat;
     background-position: center;
-    transition: ease-in-out 0.3s;
+    transition: ease-in-out 0.5s;
 }
 
 .skill-box:hover {
@@ -97,7 +97,7 @@
 }
 
 .icones-habilidades {
-    transition: ease-in-out 0.3s;
+    transition: ease-in-out 0.5s;
 }
 
 .icones-habilidades:hover {
