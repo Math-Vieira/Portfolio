@@ -104,86 +104,51 @@
     opacity: 0;
 }
 
-.skill1 {
-    background-image: url(../img/html.svg);
-}
-.skill1:hover {
+.skill1{
     background-image: url(../img/html2.svg);
 }
 
 .skill2 {
-    background-image: url(../img/css.svg);
-}
-.skill2:hover {
     background-image: url(../img/css2.svg);
 }
 
 .skill3 {
-    background-image: url(../img/js.svg);
-}
-.skill3:hover {
     background-image: url(../img/js2.svg);
 }
 
 .skill4 {
-    background-image: url(../img/node.svg);
-}
-.skill4:hover {
     background-image: url(../img/node2.svg);
 }
 
 .skill5 {
-    background-image: url(../img/php.svg);
-}
-.skill5:hover {
     background-image: url(../img/php2.svg);
 }
 
 .skill6 {
-    background-image: url(../img/java.svg);
-}
-.skill6:hover {
     background-image: url(../img/java2.svg);
 }
 
 .skill7 {
-    background-image: url(../img/react.svg);
-}
-.skill7:hover {
     background-image: url(../img/react2.svg);
 }
 
 .skill8 {
-    background-image: url(../img/sql.svg);
-}
-.skill8:hover {
     background-image: url(../img/sql2.svg);
 }
 
 .skill9 {
-    background-image: url(../img/git.svg);
-}
-.skill9:hover {
     background-image: url(../img/git2.svg);
 }
 
+
 .skill10 {
-    background-image: url(../img/github.svg);
-}
-.skill10:hover {
     background-image: url(../img/github2.svg);
 }
 
 .skill11 {
-    background-image: url(../img/bootstrap.svg);
-}
-.skill11:hover {
     background-image: url(../img/bootstrap2.svg);
 }
 
 .skill12 {
-    background-image: url(../img/typescript.svg);
-}
-.skill12:hover {
     background-image: url(../img/typescript2.svg);
 }
