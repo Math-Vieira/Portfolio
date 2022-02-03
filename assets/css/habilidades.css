@@ -95,6 +95,15 @@
     }
 
 }
+
+.html {
+    transition: ease-in-out 0.3s;
+}
+
+.html:hover {
+    opacity: 0;
+}
+
 .skill1 {
     background-image: url(../img/html.svg);
 }
