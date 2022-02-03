@@ -96,11 +96,11 @@
 
 }
 
-.html {
+.icones-habilidades {
     transition: ease-in-out 0.3s;
 }
 
-.html:hover {
+.icones-habilidades:hover {
     opacity: 0;
 }
 
