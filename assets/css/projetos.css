@@ -23,13 +23,31 @@
     padding-bottom: 70px;
 }
 
+button {
+    padding: 10px 100px;
+    border-radius: 25px;
+    cursor: pointer;
+    color: white;
+    background-color: #493737;
+    border: none;
+    transition: ease-in-out 0.3s;
+}
+
+button:hover {
+    background-color: #a16c60;
+}
+
 .github-link {
     margin: 0 auto;
-    padding-top: 70px;
+    padding-top: 35px;
     padding-bottom: 93px;
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
 }
+
 .projetos a {
     display: inline;
 }
@@ -39,6 +57,10 @@
     height: 195px;
     width: 310px;
     border-radius: 20px;
+}
+
+.escondido {
+    display: none;
 }
 
 .projetos-itens {
