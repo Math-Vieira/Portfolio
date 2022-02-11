@@ -28,6 +28,37 @@ h2 {
     color: white;
 }
 
+.circulo {
+    position: absolute;
+}
+
+.avatar {
+    width: 323px;
+    height: 368px;
+    position: relative;
+    cursor: pointer;
+    transition: ease 1s;
+}
+
+.avatar:hover {
+    transform: scale(1.1);
+}
+
+.html {
+    left: 50px;
+    top: 0;
+}
+
+.js {
+    bottom: 0;
+    right: 150px;
+}
+
+.css {
+    right: 0;
+    bottom: 115px;
+}
+
 .sobre-mim{
     display: flex;
     flex-direction: column;
