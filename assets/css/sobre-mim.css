@@ -41,22 +41,47 @@ h2 {
 }
 
 .avatar:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
+}
+
+@keyframes html {
+    0% {
+        bottom: 0;
+        left: 250px;
+    }
+    100% {
+        bottom: 0;
+        left: 50px;
+    }
+}
+
+@keyframes css {
+    0% {
+        bottom: 0;
+        left: 50px;
+    }
+    100% {
+        
+        bottom: 0;
+        left: 250px;
+    }
 }
 
 .html {
-    left: 50px;
-    top: 0;
+    bottom: 0;
+    left: 0;
+    animation: html 3s infinite linear alternate-reverse ;
 }
 
 .js {
     bottom: 0;
-    right: 150px;
+    left: 150px;
 }
 
 .css {
-    right: 0;
-    bottom: 115px;
+    bottom: 0;
+    left: 300px;
+    animation: css 3s infinite linear alternate-reverse;
 }
 
 .sobre-mim{
@@ -95,6 +120,10 @@ h2 {
 }
 
 @media(max-width:950px){
+
+    .circulo {
+        display: none;
+    }
     .ajustador-2 {
         max-width: 350px;
         padding: 70px 30px;

@@ -126,6 +126,20 @@ img {
     grid-area: desenho;
 }
 
+@keyframes desenhoAnimacao {
+    from {
+        top:-15px;
+    }
+    to {
+        top: 25px;
+    }
+}
+
+.desenho2 {
+    position:relative;
+    animation: desenhoAnimacao 2.1s infinite alternate-reverse linear;
+}
+
 .close-menu {
     display: none;
 }
