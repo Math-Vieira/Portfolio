@@ -27,7 +27,7 @@ function typeWriter (nome) {
     meuNome.forEach( (letra, index) => {
         setTimeout(function (){
             nome.innerHTML += letra;
-        }, 100 * index)
+        }, 125 * index)
     })
     
 }
