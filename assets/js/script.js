@@ -1,7 +1,16 @@
 const meuNome = document.querySelector('.meu-nome');
 const botaoVerMais = document.querySelector('button');
 const habilidades = document.querySelectorAll('.escondido');
+const node = document.querySelector('#fundo')
 
+function trocarFundo () {
+    const pisca = setInterval(()=>{
+        node.style.fill ='blue';
+        setTimeout(()=>{
+            node.style.fill ='red';
+        }, 1000)
+    },2000)
+}
 
 function cliqueVer (e) {
     habilidades.forEach( (elemento) => {

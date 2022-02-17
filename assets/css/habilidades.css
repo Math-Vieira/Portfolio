@@ -30,9 +30,10 @@
 
 .conteiner-skills {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 37px;
-    max-width: 535px;
+    max-width: 400px;
 }
 
 .skill-box {
@@ -46,11 +47,12 @@
     cursor: pointer;
     background-repeat: no-repeat;
     background-position: center;
-    transition: ease-in-out 0.5s;
+    transition: ease 0.3s;
 }
 
 .skill-box:hover {
     background-color: white;
+    transform: scale(1.05);
 }
 
 .conteiner-descricao {
@@ -61,6 +63,11 @@
 }
 
 @media (max-width:1200px) {
+
+    .conteiner-descricao {
+        height: 260px;
+    }
+
     #habilidades {
         display: flex;
         justify-content: center;
@@ -96,11 +103,11 @@
 
 }
 
-.icones-habilidades {
-    transition: ease-in-out 0.5s;
+.skill-box .icones-habilidades {
+    transition: ease-in-out 0.3s;
 }
 
-.icones-habilidades:hover {
+.skill-box:hover .icones-habilidades {
     opacity: 0;
 }
 
@@ -152,3 +159,12 @@
 .skill12 {
     background-image: url(../img/typescript2.svg);
 }
+
+.skill13 {
+    background-image: url(../img/sass2.svg);
+}
+
+#fundo {
+    fill: red;
+}
+
