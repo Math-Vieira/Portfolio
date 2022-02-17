@@ -1,7 +1,9 @@
 const meuNome = document.querySelector('.meu-nome');
+const fName = meuNome.innerHTML;
 const botaoVerMais = document.querySelector('button');
 const habilidades = document.querySelectorAll('.escondido');
 const node = document.querySelector('#fundo')
+meuNome.innerHTML='';
 
 function trocarFundo () {
     const pisca = setInterval(()=>{
@@ -31,16 +33,16 @@ function maisHabilidades (elemento) {
 }
 
 function typeWriter (nome) {
-    const meuNome = nome.innerHTML.split('');
-    nome.innerHTML='';
-    meuNome.forEach( (letra, index) => {
+    const meuNomeF = nome.split('');
+    meuNome.innerHTML='';
+    meuNomeF.forEach( (letra, index) => {
         setTimeout(function (){
-            nome.innerHTML += letra;
+            meuNome.innerHTML += letra;
         }, 125 * index)
     })
     
 }
 
-typeWriter(meuNome);
+/* typeWriter(fName); */
 maisHabilidades(botaoVerMais);
 
