@@ -63,6 +63,7 @@ button:hover {
     justify-content: center;
     cursor: pointer;
     overflow: hidden;
+    transition: ease-in-out 0.3s;
 }
 
 .pro div p {
@@ -71,13 +72,16 @@ button:hover {
     color: #C4C4C4;
 }
 
+.pro:hover {
+    letter-spacing: 5px;
+}
+
 .pro div {
     background-color: #705656;
     width: 1000px;
     text-align: center;
     padding: 5% 0;
     transform: rotate(-50deg);
-    
 }
 
 .escondido {
