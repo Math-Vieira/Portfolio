@@ -108,6 +108,11 @@ img {
     border-radius: 62px;
 }
 
+.linkedin a {
+    width: 100%;
+    padding: 25px 0;
+}
+
 .link {
     font-size:25px;
     width:50%;

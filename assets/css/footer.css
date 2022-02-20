@@ -9,7 +9,7 @@
 
 .footer {
     width: 100%;
-    background-color: #352728;
+    background-color:#241a1b;
 }
 
 .footer-conteiner {
@@ -45,21 +45,26 @@
    
 }
 
-.links {
-    height: 32px;
-    width: 32px;
+.links1, .links2 {
+    height: 52px;
+    width: 52px;
+    background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
     cursor: pointer;
-    transition: ease-in-out 0.3s;
+    transition: 0.5s;
+}
+
+.links:hover {
+    transform: rotate(-360deg);
 }
 
 .links1 {
-    background-image: url(../img/githubF2.svg);
+    background-image: url(../img/githubff2.svg);
 }
 
 .links2 {
-    background-image: url(../img/linkedinF2.svg);
+    background-image: url(../img/linkedinff2.svg);
 }
 
 .transparente {
