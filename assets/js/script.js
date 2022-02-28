@@ -33,13 +33,14 @@ function maisHabilidades (elemento) {
 }
 
 function typeWriter (nome) {
+    setTimeout( () => {
     const meuNomeF = nome.split('');
     meuNome.innerHTML='';
     meuNomeF.forEach( (letra, index) => {
         setTimeout(function (){
             meuNome.innerHTML += letra;
-        }, 125 * index)
-    })
+        }, 150 * index)
+    })}, 1500)
     
 }
 
