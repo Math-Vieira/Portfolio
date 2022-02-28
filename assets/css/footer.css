@@ -74,8 +74,3 @@
 .transparente:hover {
     opacity: 0;
 }
-
-
-.desenho, .descricao, .linkedin, .avatar, .sobre-mim, .projetos-itens, .project, .github-link, .conteiner-skills, .conteiner-descricao {
-    visibility: hidden;
-}
