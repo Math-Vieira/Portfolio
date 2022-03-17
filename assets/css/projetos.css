@@ -85,7 +85,9 @@ button:hover {
 }
 
 .escondido {
+    opacity: 0;
     display: none;
+    transition: 1000ms;
 }
 
 .projetos-itens {
