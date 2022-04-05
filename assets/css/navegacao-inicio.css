@@ -295,7 +295,10 @@ img {
 
     /* configurando menu mobile */
     .barra {
-        display: none;
+        display: block;
+        position: fixed;
+        top: -100vh;
+        transition: ease 0.3s;
     }
     
     .close-menu-label::after {
@@ -316,7 +319,7 @@ img {
     }
     /* ✕ */
     .close-menu:checked~.barra {
-        display: block;
+        top: 0;
     }
 
     .close-menu:checked~.close-menu-label::after {
