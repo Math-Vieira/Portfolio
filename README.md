@@ -25,7 +25,7 @@
 
 
 
-<h2>:hammer: Credits</h2>
+<h2>:hammer: Créditos</h2>
 <table>
   <tr>
     <td align="center">
