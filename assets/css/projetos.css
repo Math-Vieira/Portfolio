@@ -1,13 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Quando&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,600&display=swap');
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Quando', serif;
-    scroll-behavior: smooth;
-}
-
 #projetos {
     background-color: #352728;
 }

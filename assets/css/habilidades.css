@@ -1,12 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Quando&display=swap');
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Quando', serif;
-    scroll-behavior: smooth;
-}
-
 #habilidades {
     background-color: #493737;
 }
@@ -33,7 +24,7 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 37px;
-    max-width: 400px;
+    max-width: 55%;
 }
 
 .skill-box {
@@ -59,7 +50,7 @@
     color: white;
     font-family: 'Quando', serif;
     font-size: 20px;
-    max-width: 50%;
+    max-width: 40%;
 }
 
 @media (max-width:1200px) {
@@ -140,7 +131,7 @@
 }
 
 .skill8 {
-    background-image: url(../img/sql2.svg);
+    background-image: url(../img/styled\ 2.svg);
 }
 
 .skill9 {

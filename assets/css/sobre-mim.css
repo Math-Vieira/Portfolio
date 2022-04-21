@@ -1,13 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Quando&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Quando&display=swap');
-
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Quando', serif;
-}
-
 #sobre-mim {
     width: 100%;
     background-color: #493737;

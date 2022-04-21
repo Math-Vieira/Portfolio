@@ -5,15 +5,6 @@ const habilidades = document.querySelectorAll('.escondido');
 const node = document.querySelector('#fundo')
 meuNome.innerHTML='';
 
-function trocarFundo () {
-    const pisca = setInterval(()=>{
-        node.style.fill ='blue';
-        setTimeout(()=>{
-            node.style.fill ='red';
-        }, 1000)
-    },2000)
-}
-
 function cliqueVer (e) {
     habilidades.forEach( (elemento) => {
         if (elemento.classList.contains('escondido')) {
