@@ -29,7 +29,7 @@ skills.forEach(  (elemento, index) => {
         let tempo = 'mês';
         let tempoDeExperiencia = Math.round((dataHoje-dataInicio[index1])/(1000*60*60*24*30));
         if (tempoDeExperiencia > 1) tempo = 'meses'
-        descricao.innerHTML = `<p>${sobreSkill[index1]} Tenho ${tempoDeExperiencia} ${tempo} de experiência com esta tecnologia.</p>` ;
+        descricao.innerHTML = `<p>${sobreSkill[index1]} </p>` ;
     } )
     elemento.addEventListener('mouseout', (evento, elemento,) => {
         descricao.innerHTML = '/* Passe o mouse por cima de alguma habilidade para ler a descrição */';
