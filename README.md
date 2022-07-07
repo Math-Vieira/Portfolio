@@ -40,4 +40,4 @@
 </table>
 
 <h2>:dollar: Licença</h2>
-<b>MIT License.</b>
+<b>Proibida a utilização dos arquivos para fins diferentes de aprendizado.</b>
