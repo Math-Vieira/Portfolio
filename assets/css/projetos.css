@@ -2,6 +2,11 @@
     background-color: #352728;
 }
 
+.portfolio {
+    background-image: url(https://cdn.discordapp.com/attachments/957316110653464596/1094558908531605624/image.png);
+    background-size: cover;
+}
+
 .projetos {
     padding-top: 93px;
 }
