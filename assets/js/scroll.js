@@ -17,6 +17,8 @@ function detectarFerramentasDeDesenvolvimento() {
     if (window.outerWidth - window.innerWidth > widthThreshold) {
         console.log("Ferramentas de desenvolvimento abertas");
         // Aqui você pode chamar a função que deseja executar
+    } else {
+        alert('tá de boa')
     }
 }
 
